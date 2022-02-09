@@ -1,4 +1,5 @@
-
+@import objects.Account
+@param Account account
 
 
 <html lang="en">
@@ -8,7 +9,10 @@
 </head>
 <body>
 
-  
+  Welcome ${account.getOwner()}.
+  Your balance is ${account.getAmount()}.
+
+  <a href="/accountForm">Deposit/Withdraw</a>
 
 </body>
 </html>

@@ -8,7 +8,8 @@
 
 <body>
 
-
+  Error! Insufficient Balance!
+  <a href="/">Home</a>
 
 </body>
 
